@@ -66,10 +66,36 @@
 
             <h2>Contato</h2>
             <p>Tem um projeto em mente? Entre em contato</p>
-            <address>
-                E-mail: <a href="malito:fternoski@gmail.com">fternoski@gmail.com</a> <br>
-                Telefone: <a href="tel:+5504799718-7289">(47)99718-7289</a>
-            </address>
+
+            <form action=" ">
+
+                <label for="Nome">Nome: </label>
+                <input type="text" id="Nome" name="Nome" required> <br>
+
+                <label for="E-mail">E-mail: </label>
+                <input type="email" id="E-mail" name="E-mail" required> <br>
+
+                <label for="Telefone">Telefone: </label>
+                <input type="tel" id="Telefone" name="Telefone" required> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="Orçamento">Orçamento</option>
+                    <option value="Dúvida">Dúvida</option>
+                    <option value="Outro">Outro</option>
+                </select>
+
+                <br>
+                <label for="Mensagem">Mensagem: </label>
+                <textarea name="Mensagem" id="Mensagem" cols="20" rows="5" ></textarea>
+                <br>
+                <input type="checkbox" id="Inscrição" name="Inscrição"> 
+                <label for="Inscrição">Deseja receber minha newsletter? Fique por dentro de tudo!</label>
+                <br>
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+
         </section>
     </footer>
 
